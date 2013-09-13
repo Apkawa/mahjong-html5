@@ -6,7 +6,7 @@ require.config({
     }
 });
 
-require(['app', 'jquery'], function (app, $) {
+require(['mahjong/main', 'jquery'], function (app, $) {
     'use strict';
     // use app here
     console.log(app);
